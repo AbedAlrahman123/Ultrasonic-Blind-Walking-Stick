@@ -1,0 +1,149 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\Alsayyed\MPLABXProjects\Micro.Project.X\FinalProject.c
+[v _main main `(v  1 e 1 0 ]
+[s S71 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"224 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[u S80 . 1 `S71 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES80  1 e 1 @6 ]
+[s S93 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"346
+[u S102 . 1 `S93 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES102  1 e 1 @8 ]
+"623
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"629
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"635
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+[s S20 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1352
+[u S29 . 1 `S20 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES29  1 e 1 @134 ]
+"1457
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S41 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1474
+[u S50 . 1 `S41 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES50  1 e 1 @136 ]
+"2657
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"22 C:\Users\Alsayyed\MPLABXProjects\Micro.Project.X\FinalProject.c
+[v _main main `(v  1 e 1 0 ]
+{
+"25
+[v main@distance2 distance2 `i  1 a 2 55 ]
+[v main@distance1 distance1 `i  1 a 2 53 ]
+"24
+[v main@time_taken2 time_taken2 `i  1 a 2 51 ]
+[v main@time_taken1 time_taken1 `i  1 a 2 49 ]
+"109
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 11 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 15 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 14 ]
+[v ___ftmul@exp exp `uc  1 a 1 10 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 0 ]
+[v ___ftmul@f2 f2 `f  1 p 3 3 ]
+"157
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 27 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 31 ]
+[v ___ftdiv@exp exp `uc  1 a 1 30 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 26 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 16 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 19 ]
+"86
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
